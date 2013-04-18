@@ -1,0 +1,59 @@
+1.	Tehd‰‰n tyˆpˆyd‰lle uusi hakemisto ja tallennetaan index.html sinne. Avataan index.html jollain tekstieditorilla (esim. Notepad++)
+
+2.	Korvataan <p> tagin sis‰ll‰ oleva esimerkkiteksti pidemm‰ll‰ hakemalla lorem ipsum loremipsum.net sivulta
+
+3. Lis‰t‰‰n ennen <h1> tagia kuva joka haetaan osoitteesta lorempixel.com/600/200/cats/
+        <img src="kuva1.jpg">
+
+4. Tehd‰‰n kaksi linkki‰ ja laitetaan ne avautumaan uudessa v‰lilehdess‰
+	<a href="http://google.fi">google</a>
+	<a href="http://ylilauta.fi" target="_blank">ylilauta</a>
+
+5.  Lis‰t‰‰n style-tagi
+
+6. Tyylitell‰‰n <h1> tagi
+	h1 {
+        margin-bottom: 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+
+7. Tyylitell‰‰n linkit
+	a:link,
+    a:visited,
+    a:active {
+      	color: red;
+       	font-family: Arial, Helvetica, sans-serif;
+      	text-decoration: underline;
+    }
+    a:hover {
+       	color: blue;
+       	text-decoration: line-through;
+    }
+
+8. Tyylitell‰‰n leip‰teksti
+	p {
+        margin-top: 0;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+
+9. Huomataan ett‰ kaikkialla k‰ytet‰‰n samaa fonttia, lis‰t‰‰n siis tyylittely <body> tagille ja poistetaan font-family kaikista muista tyylittelyist‰
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+10. Lis‰t‰‰n sis‰llˆlle wrapper, eli div id:ll‰ wrap
+
+11. Tyylitell‰‰n wrapper
+		#wrap {
+        	max-width: 600px;
+        	margin: auto;
+        }
+
+12.	Laitetaan <p> tagin m‰‰rittelyyn wrapperin id eteen
+		#wrap p {...
+
+13.	Poistetaan sivun yl‰laidasta valkoinen reuna, bodyyn margin-top: 0;
